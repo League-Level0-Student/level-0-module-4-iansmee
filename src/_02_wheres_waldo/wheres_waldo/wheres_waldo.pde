@@ -11,10 +11,17 @@ void draw() {
       // println("X: " + mouseX + " Y: " + mouseY); 
 println(mouseX + ", "+mouseY);
       // If the mouse is on Waldo, print “Waldo found!”
-if(mouseX>977 && mouseX<1014 && mouseY>45 && mouseY<85 ){
+if(mouseX>977 && mouseX<1014 && mouseY>39 && mouseY<94 ){
+  print("Waldo found");
 playWoohoo();
 }
-      // If Waldo is found, also use the method below to play “Woohoo”
+else{
+ 
+
+if (mousePressed){
+  playDoh();
+}
+}     // If Waldo is found, also use the method below to play “Woohoo”
       // Change the name of the sound file if you need to 
       // If the mouse is pressed and they’re not on Waldo, play “Doh”
       // Change the name of the sound file if you need to 
