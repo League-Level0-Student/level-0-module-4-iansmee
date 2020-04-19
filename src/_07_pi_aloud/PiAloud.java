@@ -29,9 +29,12 @@ public static void main(String[] args) {
 	
 	String pi = "3.14159265358979";
 	
+	
 	System.out.println(pi.charAt(0));
 	
-	
+	for (int i = 0; i < 16; i++) {
+		System.out.println(pi.charAt(i));
+	}
 	
 	
 	
